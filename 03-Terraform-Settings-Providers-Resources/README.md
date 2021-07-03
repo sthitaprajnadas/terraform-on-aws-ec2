@@ -112,7 +112,7 @@ http://<PUBLIC-IP>/app1/metadata.html
 ```
 
 ## Step-08: Terraform State - Basics
-- Understand about Terraform State - tfstate file is created once terraform apply command is run.
+- Understand about Terraform State 
 - Terraform State file `terraform.tfstate`  -> this is created after terraform apply is done
 - Understand about `Desired State` and `Current State`
 
