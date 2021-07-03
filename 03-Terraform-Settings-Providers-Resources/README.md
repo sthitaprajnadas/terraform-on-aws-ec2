@@ -71,6 +71,9 @@ sudo curl http://169.254.169.254/latest/dynamic/instance-identity/document -o /v
 
 ## Step-06: Execute Terraform Commands
 ```t
+
+![image](https://user-images.githubusercontent.com/17138164/124347587-09a8c480-dc03-11eb-967c-5e7ee7af69da.png)
+
 # Terraform Initialize
 terraform init
 Observation:
@@ -109,7 +112,7 @@ http://<PUBLIC-IP>/app1/metadata.html
 ```
 
 ## Step-08: Terraform State - Basics
-- Understand about Terraform State
+- Understand about Terraform State - tfstate file is created once terraform apply command is run.
 - Terraform State file `terraform.tfstate`
 - Understand about `Desired State` and `Current State`
 
