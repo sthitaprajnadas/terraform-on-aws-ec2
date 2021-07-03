@@ -20,6 +20,7 @@ data "aws_availability_zones" "my_azones" {
 
 # Check if that respective Instance Type is supported in that Specific Region in list of availability Zones
 # Get the List of Availability Zones in a Particular region where that respective Instance Type is supported
+# for maps each.key is not equal to each.value for list of strings each.key=each.value
 data "aws_ec2_instance_type_offerings" "my_ins_type" {
 for_each=toset(data.aws_availability_zones.my_azones.names)
   filter {
