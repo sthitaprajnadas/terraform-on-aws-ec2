@@ -262,7 +262,7 @@ resource "aws_eip" "bastion_eip" {
 ```
 
 ### Step-08-02: Understand about Null Resource and Provisioners
-- Learn about Terraform Null Resource
+- Learn about Terraform Null Resource  --> Any change within the null resource arguements , then the provisioners gets automtically run again( For example if the host changes below, then provisioners must run again to connect to new host and do the job there).
 - Learn about [Terraform File Provisioner](https://www.terraform.io/docs/language/resources/provisioners/file.html)
 - Learn about [Terraform Remote-Exec Provisioner](https://www.terraform.io/docs/language/resources/provisioners/remote-exec.html)
 - Learn about [Terraform Local-Exec Provisioner](https://www.terraform.io/docs/language/resources/provisioners/local-exec.html)
